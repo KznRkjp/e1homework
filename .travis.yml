@@ -6,4 +6,4 @@ before-install:
 install:
 - pip install -r requirements.txt
 script:
-- pytest --cov=./game test.py
+- pytest --cov=./game test.py -vv
